@@ -1,0 +1,24 @@
+.withicon input[type="text"],.withicon select{
+	padding: 6px;
+	border: 1px solid #f49542;
+	min-width: 260px;
+}
+.withicon input[type="reset"],.withicon input[type="submit"]{
+	border: 1px solid #f49542;
+	color: #FFF;
+	background-color: #f49542;
+	padding: 6px;
+	cursor: pointer;
+}
+.error-message,.del-fail{
+	background-color: #f75e4a;
+	color: #FFF;
+	padding: 6px;
+	width: 300px;
+}
+.success-message,.del-succes{
+	background-color: #8fc143;
+	color: #FFF;
+	padding: 6px;
+	width: 300px;
+}

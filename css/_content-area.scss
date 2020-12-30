@@ -1,0 +1,169 @@
+  #content-area{
+    margin-left: 280px;
+    padding: 15px;
+    .heading{
+      h1{
+        color: $orange;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-bottom: 10px;
+      }
+      p{
+        color: $blueDark;
+        font-size: 0.8rem;
+        margin-bottom: 10px;
+      }
+    }
+
+    .cards{
+      overflow: auto;
+      margin-bottom: 30px;
+      .card{
+        background: #fff;
+        border-radius: 5px;
+        padding: 50px;
+
+        .user-img{
+          background: url("https://s3.amazonaws.com/uifaces/faces/twitter/chadengle/128.jpg") no-repeat center center fixed;
+          -webkit-background-size: cover;
+          -moz-background-size: cover;
+          -o-background-size: cover;
+          background-size: cover;
+          width: 150px;
+          height: 150px;
+          border-radius: 50%;
+          margin: 0 auto;
+        }
+        .user-name{
+          font-size: 1rem;
+          color: $orange;
+          display: block;
+          text-align: center;
+          margin: 10px 0;
+        }
+        .user-title{
+          display: block;
+          font-size: 0.8rem;
+          text-align: center;
+          margin: 10px 0;
+        }
+        .education{
+          font-size: 0.8rem;
+          display: inline-block;
+          color: $blueDark;
+        }
+        .university{
+          font-size: 0.8rem;
+        }
+        h6{
+          padding-top: -10px;
+          font-size: 0.8rem;
+        }
+        .date{
+          font-size: 1.3rem;
+          display: block;
+          border-left: 5px solid $orange;
+          border-bottom: 1px solid;
+          position: relative;
+          left: -20px;
+          padding: 5px 40px;
+          margin: 20px 0;
+
+        }
+        .previos{
+          background: orange;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          font-size: 0.9rem;
+          color: white;
+          padding: 5px;
+          display: inline-block;
+          text-align: center;
+          vertical-align: middle;
+        }
+        .chp{
+          font-size: 0.8rem;
+          font-weight: 300;
+          display: block;
+          margin-bottom: 0.5rem;
+        }
+        .chp2{
+          font-size: 0.8rem;
+          font-weight: 500;
+          display: block;
+          margin-bottom: 0.5rem;
+        }
+        .time{
+          display: block;
+          font-size: 0.8rem;
+          font-weight: 300;
+          color: $blueDark;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+
+  table{
+    width: 100%;
+    thead{
+      background: $orange;
+      th{
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        font-weight: 500;
+        text-align: left;
+        padding: 20px 10px;
+        color: white;
+        -webkit-border-top-left-radius: 5px;
+        -webkit-border-top-right-radius: 5px;
+        -moz-border-radius-topleft: 5px;
+        -moz-border-radius-topright: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+
+      }
+    }
+    tbody{
+      background: #fff;
+      font-size: 0.8rem;
+      td{
+        padding: 20px 10px;
+      }
+    }
+  }
+
+  .col-md-2{
+    width: ((2 * 100) / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+  }
+
+  .col-md-3{
+    width: ((3 * 100) / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+  }
+
+  .col-md-4{
+    width: ((4 * 100) / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+  }
+
+  .col-md-9{
+    width: ((9 * 100) / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+  }
+  .col-md-10{
+    width: ((10 * 100) / 12) + %;
+    padding: 0 15px;
+    display: inline-block;
+    float: left;
+  }
