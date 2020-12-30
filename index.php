@@ -6,6 +6,7 @@ include ('form.php');
 ?>
 <html>
 <head>
+  <!---hello new me---------------------------------->
   <link rel="shortcut icon" href="/TSC/Images/logo.png" type="image/x-icon" />
   <title>Home | Thunderscriptify</title>
   <link href="css/style.min.css" type="text/css" rel="stylesheet">
